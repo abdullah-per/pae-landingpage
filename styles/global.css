@@ -1,9 +1,18 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
 /* Variables */
 :root {
     --colorPrimary: #FF312E;
     --headFont: "Anta", sans-serif;
     --textFont: "Exo+2", monospace;
 }
+
 
 /* Typography - Use font weight and subtle color changes combined to indicate further hierarchy. */
 h1 {
@@ -25,11 +34,61 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
     max-width: 60ch;
     line-height: 26px;
     text-align: left;
     font-family: var(--textFont);
 }
 
+
 /* Layout - White space is an active element, indicate element relationships using spacing. */
+body {
+
+}
+
+.landingpage {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+
+    margin: 75px 200px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0  0 2px rgb(190, 190, 190),
+                0 5px 1em rgba(0,0,0,0.3);
+}
+
+
+/* Elements */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 14px;
+    font-family: var(--textFont);
+    transition: all 0.25s;
+}
+
+.btn:hover {
+    color: white;
+    transform: scale(1.025);
+    transform: translateY(-2.5px);
+    background-color: var(--colorPrimary);
+}
+
+.btn:active {
+    color: var(--colorPrimary);
+    transform: scale(0.95);
+    background-color: white;
+}
+
+.btn svg {
+    width: 2em;
+    height: 2em;
+    margin-right: 0.5em;
+}

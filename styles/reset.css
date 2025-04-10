@@ -13,3 +13,9 @@ img {
   display: block;
   max-inline-size: 100%;
 }
+
+/* Selection */
+::selection {
+    color: white;
+    background-color: rgba(255, 49, 46, 0.8);
+}
