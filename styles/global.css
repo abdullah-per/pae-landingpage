@@ -5,22 +5,31 @@
     --textFont: "Exo+2", monospace;
 }
 
-/* Typography */
+/* Typography - Use font weight and subtle color changes combined to indicate further hierarchy. */
 h1 {
     font-size: 48px;
     font-weight: 400;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -1.25px;
     font-family: var(--headFont);
 }
 
 h2 {
     font-size: 28px;
     font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -1.25px;
     font-family: var(--headFont);
 }
 
 p {
     font-size: 18px;
+    max-width: 60ch;
+    line-height: 26px;
+    text-align: left;
     font-family: var(--textFont);
 }
 
-/* Layout */
+/* Layout - White space is an active element, indicate element relationships using spacing. */
