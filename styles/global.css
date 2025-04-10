@@ -1,0 +1,26 @@
+/* Variables */
+:root {
+    --colorPrimary: #FF312E;
+    --headFont: "Anta", sans-serif;
+    --textFont: "Exo+2", monospace;
+}
+
+/* Typography */
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--headFont);
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: var(--headFont);
+}
+
+p {
+    font-size: 18px;
+    font-family: var(--textFont);
+}
+
+/* Layout */
