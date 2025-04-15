@@ -29,13 +29,45 @@
 
 .browser {
     margin-top: 48px;
+    margin-bottom: 114px;
 }
 
 /* Section 2 */
 .section-2 h2 {
-    margin-top: 74px;
+    margin-top: 52px;
 }
 
 .card-container {
-    margin-top: 48px;
+    margin-top: 64px;
+    margin-bottom: 114px;
+}
+
+/* Section 3 */
+.section-3 h2 {
+    margin-top: 78px;
+    margin-bottom: 64px;
+}
+
+.content-divider {
+    margin-bottom: 114px;
+}
+
+/* Section 4 */
+.section-4 h2 {
+    margin-top: 78px;
+    margin-bottom: 64px;
+}
+
+.pae-map {
+    margin-bottom: 90px;
+}
+
+/* Contact */
+.contact h2 {
+    margin-top: 52px;
+    margin-bottom: 64px;
+}
+
+.contact-form {
+    margin-bottom: 120px;
 }

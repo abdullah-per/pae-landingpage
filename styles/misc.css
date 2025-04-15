@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ol[role="list"], ul[role="list"] {
+  list-style: none;
+  padding-inline: 0;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Images */
+.image-one {
+    background-image: url("../resources/1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-two {
+    background-image: url("../resources/2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Selection */
+::selection {
+    color: white;
+    background-color: rgba(5, 142, 217, 0.8);
+}
