@@ -126,8 +126,8 @@ body {
 }
 
 .card-container {
-    gap: 60px;
-    width: 60%;
+    gap: 40px;
+    width: 70%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
